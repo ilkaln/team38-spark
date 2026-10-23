@@ -17,3 +17,4 @@ sha512sum -c "$ARCHIVE.sha512"
 tar -xzf "$ARCHIVE"
 rm "$ARCHIVE" "$ARCHIVE.sha512"
 echo "Spark ${VERSION} installed in $HOME/opt/spark-${VERSION}-bin-without-hadoop"
+

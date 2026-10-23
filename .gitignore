@@ -1,0 +1,14 @@
+metastore_db/
+derby.log
+
+logs/
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+data/
+*.csv
+*.parquet
+
+.DS_Store
